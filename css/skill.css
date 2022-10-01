@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+* {
+    
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Montserrat", sans-serif; }
+  *:focus {
+    outline: 0; 
+}
+
+body {
+    
+  width: 100%;
+  height: 100%;
+  background: white;
+  overflow: hidden;
+}
+
+body .left-side {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+}
+
+body #begin {
+    
+  display: flex;
+  background-color: white;
+  position: relative;
+  max-width: 100vw;
+  height: 600px;
+  overflow: hidden; 
+}
+
+body #begin .left-side {
+    
+  background-color: white;
+  width: 100%;
+  position: absolute; 
+}
+
+body #begin .left-side .logo {
+  
+  margin-top: 3rem;
+  margin-left: 8rem; 
+}
+
+
+
+body #begin .left-side .icons {
+    
+   margin-left: 8rem;
+   margin-top: 100px;
+   display: flex; 
+}
+        
+body #begin .left-side .icons a {
+    
+   width: 60px;
+   height: 55px;
+   background-color: white;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+   
+body #begin .left-side .icons a:hover {
+    
+   margin-top: -10px;
+   border-radius: 10px;
+   transform: rotate(9deg);
+   box-shadow: 0 30px 20px #777;
+   transition: 0.5s; }
+
+body #begin .left-side .icons a:not(:first-child) {
+    
+   margin-left: 1rem; 
+}
+
+body #text {
+        
+    margin-left: 6rem;
+    margin-top: 1px;
+    font-family: "Raleway", sans-serif; }
+
+body #text .texts1 h4 {
+    
+    margin: 0 120px 0px 20px;
+    border: 7px solid black;
+    border-radius: 8px;
+    position:absolute;
+    top: 200px;
+    left: 150px;
+    font-size: 60px;
+    color: black;
+    text-align:center;text-shadow: 0 1px 0 #ccc,
+                                   0 2px 0 #c9c9c9,
+                                   0 3px 0 #bbb,
+                                   0 4px 0 #b9b9b9,
+                                   0 5px 0 #aaa,
+                                   0 6px 1px rgba(0,0,0,.1),
+                                   0 0 5px rgba(0,0,0,.1),
+                                   0 1px 3px rgba(0,0,0,.3),
+                                   0 3px 5px rgba(0,0,0,.2),
+                                   0 5px 10px rgba(0,0,0,.25),
+                                   0 10px 10px rgba(0,0,0,.2),
+                                   0 20px 20px rgba(0,0,0,.15)
+    /*font-size: 60px;
+    font-weight: 700;
+    border: 2px solid black;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px 0px 20px;
+    background-color: black;
+    color: black;
+    font-family: "Raleway" ,sans-serif;*/
+    
+   
+    
+}
+
+body #text .texts1 h1 {
+          
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 3rem; }
+
+body #text .texts1 p {
+          
+    color: #909090;
+    font-weight: 800;
+    margin-top: 1rem; }
+
+body #menu1 {
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body #menu1 .center {
+    
+    height: 670px;
+    position: relative;
+    text-align: center;
+    background-color: white;
+    
+}
+
+body #menu1 .center #navbar {
+    
+    position: relative;
+    height: 66px;
+    padding: 0.5rem;
+    display: flex;
+    text-align: center;
+    top: inherit;
+}
+
+body #menu1 .center ul{
+    
+    display: flex;
+    margin-top: 1rem;
+}
+
+body #menu1 .center #navbar ul li{
+    
+    margin: 3rem;
+    background-color: aliceblue;
+    margin: 30px;
+    
+}
+
+body #menu1 .center #navbar ul li:last-child {
+    
+    background-color: aliceblue;
+    border 10px;
+}
+
+body #menu1 .center #navbar ul li a {
+    
+    font-weight: 700;
+    font-size: 20px;
+    padding: 1rem;
+    color: #fff;
+    height: 2.8rem;
+    
+}
+
+body #menu1 .center #navbar .btn1{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px 20px;
+    background-color: #161616;
+;
+    border-radius: 30px;
+    margin-top: 45px;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 1s all ease;
+}
+
+body #menu1 .center #navbar .btn1:hover{
+    background-color: #7a191b;
+}
+
