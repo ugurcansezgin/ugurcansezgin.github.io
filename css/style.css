@@ -139,7 +139,7 @@ body #menu .center #navbar ul li{
 body #menu .center #navbar ul li:last-child {
     
     background-color: aliceblue;
-    border 10px;
+    border: 10px;
 }
 
 body #menu .center #navbar ul li a {
@@ -382,3 +382,4 @@ body #thanks a {
             
             
         }
+    }
