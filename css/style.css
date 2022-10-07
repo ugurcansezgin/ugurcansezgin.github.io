@@ -314,94 +314,90 @@ body #thanks a {
     border-radius: 10px;
     box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px; }
 
-    /* tablet görünümü */ 
-
-@media only screen and (max-width:992px) {
+    @media only screen and (max-width:992px) {
     
-    .begin {
-        flex-wrap: wrap;
-        width: 28%;
-        
-    
-    }
-    
-    .menu{ 
-        flex-wrap: wrap;
-        width: 48%;
-    }
-    
-}
-
-
-/* telefon görünümü */
-
-@media only screen and (max-width:768px) {
-    
-    .left-side {
-        
-        flex-wrap: wrap;
-        margin-right: 60%;
-        
-        
-    }
-    
-    .left-side .logo{
-        
-        /
-        margin: -35%
-    }
-    
-    .left-side .logo img {
-        
-        width: 65%;
-        height: 65%;
-        margin-right: 55%;
-    
-    }
-    
-    .texts {
-        
-        flex-wrap: wrap;
-        text-align: center;
-        
+        .begin {
+            flex-wrap: wrap;
+            width: 28%;
+            
         
         }
-    
-    .icons {
         
-        flex-grow: wrap;
-        margin-right: 25%;
-        
-        
-        
-        
-        
-    }
-       
-    .center{ 
-        
-        margin-right: 85%; 
-        width: 5%;
-        
-        
+        .menu{ 
+            flex-wrap: wrap;
+            width: 48%;
+        }
         
     }
     
-    .center li {
+    
+    /* telefon görünümü */
+    
+    @media only screen and (max-width:600px) {
         
-        display: contents;
+        .left-side {
+            
+            flex-wrap: wrap;
+            
+            
+            
+            
+        }
         
+        /*.left-side .logo{
+            
+            margin: -30%;
+        }*/
+        
+        .left-side .logo img {
+            
+            width: 65%;
+            
+               
+        }
+        
+        .texts {
+            
+            flex-wrap: wrap;
+            text-align: center;
+            display: inline-block;
+           
+            
+            }
+        .texts h4,h1,p{margin: 0px;}
+        
+        .icons {
+            
+            flex-grow: wrap;
+            margin-right: 25%;
+            
+            
+    }
+           
+        .center{ 
+            
+            margin-right: 85%; 
+            width: 5%;
+            
+            
+     }
+        
+        .center li {
+            
+            display: contents;
+            
+            
+            
+            
+        }
+        
+        body #contact form .input:not(input[type="submit"]){
+            
+            margin-left: 85px;
+            
+            
+        }
+    
         
         
     }
-    
-    body #contact form .input:not(input[type="submit"]){
-        
-        margin-left: 85px;
-        
-        
-    }
-
-    
-    
-}
