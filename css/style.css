@@ -335,7 +335,7 @@ body #thanks a {
 
 /* telefon görünümü */
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:500px) {
     
     .left-side {
         
@@ -381,7 +381,7 @@ body #thanks a {
         
         margin-right: 85%; 
         width: 5%;
-        margin-top: -34%;
+        margin-top: -40%;
         
         
         
